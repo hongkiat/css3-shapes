@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>CSS3 Exclusions - Hongkiat.com</title>
+
+<!--  jquery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../_nav/js/jquery.js"><\/script>')</script>
+
+<!-- demo scripts -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- nav script -->
+<script src="../_nav/js/nav.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<!-- nav meta -->
+<div class="demo-meta">
+	<h1 class="demo-title">CSS3 Exclusions</h1>
+	<p class="demo-desc">This demo shows some basic example of CSS3 exclusions application.</p>
+</div>
+
+<!-- demo content -->
+<div class="demo-wrapper">
+
+<div class="alert">See this demo in Chrome with Experimental Feature enabled</div>
+
+<h3>Basic Shape</h3>
+<div class="basic-shape">
+	Lo&shy;rem ipsum dolor sit amet, con&shy;sectetur ad&shy;ipis&shy;icing elit, sed do eius&shy;mod tem&shy;por incidid&shy;unt ut labore et dol&shy;ore magna ali&shy;qua. Ut enim ad minim veniam, quis nostrud exercita&shy;tion ullam&shy;co labo&shy;ris nisi ut ali&shy;quip ex ea com&shy;modo conse&shy;quat. Duis aute irure dolor in reprehend&shy;erit in volup&shy;tate velit es&shy;se cil&shy;lum dolore eu fug&shy;iat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<h4>Code</h4>
+<pre>
+div {
+	font-size: 12px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	text-align: justify;
+	-webkit-hyphens: manual;
+	-webkit-shape-inside: polygon(0px 0px, 0 300px, 300px 300px);
+}
+</pre>
+
+<h3>Complex Shape</h3>
+
+<div class="svg-shape">
+	Lo&shy;rem i&shy;ps&shy;um do&shy;lor sit amet, con&shy;sectetur ad&shy;ipis&shy;icing elit, sed do eius&shy;mod tem&shy;por incidid&shy;unt ut lab&shy;ore et dol&shy;ore magna ali&shy;qua. Ut enim ad minim veniam, quis no&shy;strud exercita&shy;tion ullam&shy;co labo&shy;ris nisi ut ali&shy;quip ex ea com&shy;modo conse&shy;quat. Duis aute iru&shy;re dolor in reprehend&shy;erit i&shy;n vo&shy;l&shy;up&shy;ta&shy;te ve&shy;lit es&shy;se cil&shy;lum do&shy;lo&shy;re e&shy;u fug&shy;ia&shy;t n&shy;ulla pari&shy;atur. Ex&shy;cept&shy;eur si&shy;nt occa&shy;ecat cupi&shy;dat&shy;at non pro&shy;ident, su&shy;nt in cul&shy;pa qui offi&shy;cia dese&shy;runt mollit anim id est la&shy;borum. Lo&shy;rem i&shy;ps&shy;um do&shy;lor sit amet, con&shy;sectetur ad&shy;ipis&shy;icing elit, sed do eius&shy;mod tem&shy;por incidid&shy;unt ut lab&shy;ore et dol&shy;ore magna ali&shy;qua. Ut enim ad minim veniam, quis no&shy;strud exercita&shy;tion ullam&shy;co labo&shy;ris nisi ut ali&shy;quip ex ea com&shy;modo conse&shy;quat. Duis aute iru&shy;re dolor in reprehend&shy;erit i&shy;n vo&shy;l&shy;up&shy;ta&shy;te ve&shy;lit es&shy;se cil&shy;lum do&shy;lo&shy;re e&shy;u fug&shy;ia&shy;t n&shy;ulla pari&shy;atur. Ex&shy;cept&shy;eur si&shy;nt occa&shy;ecat cupi&shy;dat&shy;at non pro&shy;ident, su&shy;nt in cul&shy;pa qui offi&shy;cia dese&shy;runt mollit anim id est la&shy;borum.
+</div>
+
+<h4>Code</h4>
+<pre>
+div {
+	font-size: 12px;
+	width: 300px;
+	height: 269px;
+	overflow: hidden;
+	text-align: justify;
+	-webkit-hyphens: manual;
+	-webkit-shape-inside: polygon(75.778px 272.829px, 1.555px 144.271px, 75.778px 15.713px, 224.222px 15.713px, 298.444px 144.271px, 224.222px 272.829px);
+}
+</pre>
+</div>
+
+</body>
+</html>
